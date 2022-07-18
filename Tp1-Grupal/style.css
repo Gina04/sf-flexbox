@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pilat Compressed';
+    src: local('Pilat Compressed Book'), local('Pilat-Compressed-Book'),
+        url('PilatCompressed-Book.woff2') format('woff2'),
+        url('PilatCompressed-Book.woff') format('woff'),
+        url('PilatCompressed-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

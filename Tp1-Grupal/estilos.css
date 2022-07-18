@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #001323;
+}
+
+.header__noticias{
+    background: #41ead3;
+    text-align: center;
+    height: 30px;
+    width: 100vw;
+    font-family: 'Pilat Compressed',sans-serif;
+}
+
+.header__noticias-titulo, .header__noticias-subtitulo{
+    display: inline;
+}
+
+h6{
+    font-weight: 900;
+    font-size: 22px;
+    padding-right: 10px;
+    
+}
+
+.header__contenedor{
+    display: flex;
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 72px;
+    border-bottom: .5px solid #d1d1d1;
+}
+
+.header__contenedor-logo{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.header__contenedor-nav{
+    display: flex;
+    margin-left: 1em;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 16px;
+    
+}
+
+.header__contenedor-lista{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+
+span{
+    margin-right: 10px;
+}
+.nav__botones{
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+.nav__botones a{
+    text-decoration: none;
+}
+.nav__botones-login{
+    margin-right: 1em;
+    font-size: 16px;
+
+}
+.nav__botones-getStarted{
+    padding: 0.5em 1em;
+    border: 2px solid #5840e0;
+    background-color: transparent;
+    color: #5840e0;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.hero__contenedor{
+    display: flex;
+    max-width: 1340px;
+    padding-left: 0;
+    margin-top: 5rem;
+   
+}
+
+.hero__contenedor-texto{
+    width: 40%;
+    margin-right: 4rem;
+}
+h1{
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 6rem;
+    line-height: 83.5%;
+    font-weight: 400;
+    letter-spacing: -4px;
+}
+.hero__contenedor-descripcion{
+    margin-top: 1rem;
+    border-bottom: 1px #000;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 1.5rem;
+}
+
+.hero__contenedor-texto a{
+    margin-top: 1.5rem;
+    border: 2px solid #5541ea;
+    background-color: #fff;
+    color: #5541ea;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px 15px;
+    text-decoration: none;
+}
+
+.hero__contenedor-video{
+    width: 60%;
+}
+
+.hero__contenedor-video img{
+    position: absolute;
+}
+
+.hero__contenedor-video-play{
+    position: relative;
+    display: flex;
+    left: 30vw;
+    top: 27%;
+    width: 130px;
+    height: 130px;
+    border-radius: 67px;
+    border: 2px solid #000;
+    background-color: #fff;
+    
+    justify-content: center;
+    align-items: center;
+    padding-right: 6px;
+}
+
+.hero__contenedor-video-play:hover{
+    box-shadow: 0 0 20px 0 rgb(0 19 35 / 25%), 0 0 1px 1px rgb(0 19 35 / 25%);
+}
